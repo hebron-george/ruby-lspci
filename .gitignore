@@ -8,7 +8,7 @@
 /tmp/
 
 # ide
-.idea/
+**/.idea/
 
 # rspec failure tracking
 .rspec_status
