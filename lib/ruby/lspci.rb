@@ -1,7 +1,11 @@
-require "ruby/lspci/version"
+require 'ruby/lspci/version'
 
 module Ruby
   module Lspci
-    # Your code goes here...
+    class << self
+      def pci_devices
+
+      end
+    end
   end
 end
