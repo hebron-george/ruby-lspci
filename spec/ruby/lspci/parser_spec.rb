@@ -16,4 +16,12 @@ RSpec.describe Ruby::Lspci::Parser do
     end
 
   end
+
+  describe '#lspci_version' do
+    context 'when lspci is not a recognized command' do
+      it 'should raise an error' do
+
+      end
+    end
+  end
 end
