@@ -1,3 +1,6 @@
+![Build Status](https://travis-ci.org/hebron-george/ruby-lspci.svg?branch=master)
+
+
 # Getting Started
 
 ```ruby
