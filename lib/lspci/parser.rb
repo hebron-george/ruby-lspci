@@ -1,6 +1,6 @@
 require 'active_support/core_ext/hash/indifferent_access'
 
-module Ruby::Lspci
+module Lspci
   class Parser
     attr_reader :command_result
 
@@ -17,15 +17,10 @@ module Ruby::Lspci
     end
 
     def parse
-      devices = []
-      command_result = (command_result || lspci_output)
-
+      command_result = (self.command_result || lspci_output)
       split_devices  = split_devices(command_result)
-      split_devices.each do |device|
-        devices << parse_device(device)
-      end
 
-      devices
+      split_devices.map { |device| parse_device(device) }
     end
 
     private

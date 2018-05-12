@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "ruby/lspci/version"
+require "lspci/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "ruby-lspci"
-  spec.version       = Ruby::Lspci::VERSION
+  spec.version       = Lspci::VERSION
   spec.authors       = ["Hebron George"]
   spec.email         = ["hebrontgeorge@gmail.com"]
 

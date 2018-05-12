@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "ruby/lspci"
+require "lspci"
 require 'pry'
 
 RSpec.configure do |config|
