@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Hebron George"]
   spec.email         = ["hebrontgeorge@gmail.com"]
 
-  spec.summary       = %q{`lspci` parser}
+  spec.summary       = %q{`lspci -vmm` parser}
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/hebron-george/ruby-lspci'
   spec.license       = "MIT"
