@@ -12,7 +12,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruby-lspci'
+gem 'lspci'
 ```
 
 And then execute:

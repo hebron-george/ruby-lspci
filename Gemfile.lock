@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ruby-lspci (0.1.0)
+    lspci (0.1.0)
       activesupport
 
 GEM
@@ -45,10 +45,10 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
+  lspci!
   pry
   rake (~> 10.0)
   rspec (~> 3.0)
-  ruby-lspci!
 
 BUNDLED WITH
    1.16.0

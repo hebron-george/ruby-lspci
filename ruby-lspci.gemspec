@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "lspci/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "ruby-lspci"
+  spec.name          = "lspci"
   spec.version       = Lspci::VERSION
   spec.authors       = ["Hebron George"]
   spec.email         = ["hebrontgeorge@gmail.com"]
