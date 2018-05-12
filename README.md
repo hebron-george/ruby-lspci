@@ -1,4 +1,5 @@
-![Build Status](https://travis-ci.org/hebron-george/ruby-lspci.svg?branch=master)
+[![Build Status](https://travis-ci.org/hebron-george/ruby-lspci.svg?branch=master)](https://travis-ci.org/hebron-george/ruby-lspci)
+[![Gem Version](https://badge.fury.io/rb/lspci.svg)](https://badge.fury.io/rb/lspci)
 
 
 # Getting Started
