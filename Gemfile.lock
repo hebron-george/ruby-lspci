@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lspci (0.1.1)
+    lspci (0.1.2)
       activesupport
 
 GEM
